@@ -28,7 +28,7 @@ import Tabs from 'src/components/Tabs';
 import { Alert } from 'src/common/components';
 import Modal from 'src/components/Modal';
 import Button from 'src/components/Button';
-import withToasts from 'src/messageToasts/enhancers/withToasts';
+import withToasts from 'src/components/MessageToasts/withToasts';
 import {
   testDatabaseConnection,
   useSingleViewResource,

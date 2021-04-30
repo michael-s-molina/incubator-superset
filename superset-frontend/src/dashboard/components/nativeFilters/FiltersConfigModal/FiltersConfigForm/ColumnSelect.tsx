@@ -21,7 +21,7 @@ import { FormInstance } from 'antd/lib/form';
 import { Column, SupersetClient, t } from '@superset-ui/core';
 import { useChangeEffect } from 'src/common/hooks/useChangeEffect';
 import { Select } from 'src/common/components';
-import { useToasts } from 'src/messageToasts/enhancers/withToasts';
+import { useToasts } from 'src/components/MessageToasts/withToasts';
 import { getClientErrorObject } from 'src/utils/getClientErrorObject';
 import { cacheWrapper } from 'src/utils/cacheWrapper';
 import { NativeFiltersForm } from '../types';
